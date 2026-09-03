@@ -1,0 +1,17 @@
+ Port,Description,Mode,Access VLAN,Allowed VLANs,Native,PortFast,BPDUGuard,Speed/Duplex,Connected Device,Far-end port, Status
+Gi0/1,OPNsense::Trunk::igb0,Trunk,N/A,"10,30",999,No,No,"Full-Duplex, 1000Mb/s",OPNsense,igb0,Up
+Gi0/2,OMADA::Trunk::ETH(PoE),Trunk,N/A,"10,30",999,No,No,"Full-Duplex, 1000Mb/s",OMADA WAP,ETH(PoE),Up
+Gi0/3,Shutdown,Shutdown,N/A,N/A,N/A,Yes,Yes,N/A,N/A,N/A,Down
+Gi0/4,Shutdown,Shutdown,N/A,N/A,N/A,Yes,Yes,N/A,N/A,N/A,Down
+Gi0/5,Shutdown,Shutdown,N/A,N/A,N/A,Yes,Yes,N/A,N/A,N/A,Down
+Gi0/6,Shutdown,Shutdown,N/A,N/A,N/A,Yes,Yes,N/A,N/A,N/A,Down
+Gi0/7,OWEN-PC::Access::ETH,Access,10,N/A,N/A,Yes,Yes,"Full-Duplex, 1000Mb/s",Owen-PC,ETH,Up
+Gi0/8,NETGEAR::Trunk::Gb1,Trunk,N/A,"10,30",999,No,No,"Full-Duplex, 1000Mb/s",NETGEAR SWITCH,Gb1,Up
+Gi0/9,N/A,Shutdown,N/A,N/A,N/A,No,No,N/A,N/A,N/A,Down
+Gi0/10,Server::Access::ETH,Access,REDACTED,N/A,N/A,Yes,Yes,"Full-Duplex, 1000Mb/s",Sever,ETH,Up
+NetG-SW,,,,,,,,,,,
+Gi1,Switch1::Trunk::gi0/8,Trunk,N/A,"10,30",999,No,No,"Full-Duplex, 1000Mb/s",Switch1,Gi0/8,Up
+Gi2,EAP2::Trunk::ETH(PoE),Trunk,N/A,"10,30",999,No,No,"Full-Duplex, 1000Mb/s",EAP1,ETH(PoE),Up
+Gi3,N/A,Shutdown,N/A,N/A,N/A,No,No,N/A,N/A,N/A,Down
+Gi4,DrewPC::Access::ETH,Access,REDACTED,N/A,N/A,No,No,"Full-Duplex, 1000Mb/s",DrewPC,ETH,Up
+Gi5,N/A,Shutdown,N/A,N/A,N/A,No,No,N/A,N/A,N/A,Down
